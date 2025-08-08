@@ -48,12 +48,12 @@ function mostrarNombres() {
       });
     }
     */
-  const nombres = [];
+  let nombres = [];
 
   // Función para agregar nombres
-  function agregarNombre() { 
-    const input = document.getElementById('amigo'); // Buscar el input de texto en el documento HTML usando su ID
-    const nombre = input.value.trim(); // Elimina espacios extra al principio y final usando .trim()
+  function agregarAmigo() { 
+    let input = document.getElementById('amigo'); // Buscar el input de texto en el documento HTML usando su ID
+    let nombre = input.value.trim(); // Elimina espacios extra al principio y final usando .trim()
 
     if (nombre === "") { // Validar que el nombre no esté vacío
       alert("Por favor, escribe un nombre."); // Si está vacío, mostramos un mensaje y salimos de la función
@@ -68,18 +68,18 @@ function mostrarNombres() {
 
   // Función que muestra los nombres en la lista
   function mostrarNombres() { 
-    const lista = document.getElementById('listaAmigos'); // Buscar la lista <ul> en el documento HTML usando su ID
+    let lista = document.getElementById('listaAmigos'); // Buscar la lista <ul> en el documento HTML usando su ID
     lista.innerHTML = ""; // Limpiar el contenido anterior de la lista
 
     nombres.forEach(nombre => {
-      const li = document.createElement('li'); // Crear un nuevo elemento <li> para la lista
+      let li = document.createElement('li'); // Crear un nuevo elemento <li> para la lista
       li.textContent = nombre; // Asignar el texto del nombre al <li>
       lista.appendChild(li); // Agregar el <li> a la lista <ul> en el HTML
     });
   }
 
   // Agrego un listener para detectar cuando el usuario presiona Enter en el input
-  const input = document.getElementById('amigo');
+  let input = document.getElementById('amigo');
   input.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       agregarNombre();
@@ -91,8 +91,8 @@ function mostrarNombres() {
       alert("La lista esta vacia. Agrega primero los nombres");
       return
     }
-    const indice = Math.floor(Math.random() * nombres.length);
-    const elegido = nombres[indice];
+    let indice = Math.floor(Math.random() * nombres.length);
+    let elegido = nombres[indice];
 
     document.getElementById("listaAmigos").textContent = `El nombre ganador es: ${elegido}`;
   }
