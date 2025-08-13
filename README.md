@@ -32,6 +32,7 @@ Permite añadir nombres, mostrarlos en pantalla y elegir aleatoriamente al ganad
 
 
 📜 Lógica principal
+
 Agregar nombres:
 Se almacenan en un array nombres[] y se muestran en una lista.
 
