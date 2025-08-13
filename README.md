@@ -40,9 +40,10 @@ Sorteo:
 Se selecciona un índice aleatorio dentro del array y se muestra el ganador.
 
 💻 Tecnologías utilizadas
-HTML5 – estructura de la aplicación.
 
-CSS3 – estilos y diseño responsivo.
+HTML – estructura de la aplicación.
+
+CSS – estilos y diseño responsivo.
 
 JavaScript – lógica y manejo de eventos.
 
