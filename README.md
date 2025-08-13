@@ -23,7 +23,13 @@ Permite añadir nombres, mostrarlos en pantalla y elegir aleatoriamente al ganad
 
 2. Abre el archivo index.html en tu navegador.
 3. Escribe los nombres de tus amigos y añádelos.
+   
+![Vista previa](assets/añadir-amigo-secreto)
+
 4. Pulsa Sortear amigo para elegir un ganador al azar.
+
+![Vista previa](assets/sortear-amigo-secreto)
+   
 
 
    
