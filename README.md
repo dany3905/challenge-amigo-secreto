@@ -20,3 +20,10 @@ Permite añadir nombres, mostrarlos en pantalla y elegir aleatoriamente al ganad
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/amigo-secreto.git
+
+2. Abre el archivo index.html en tu navegador.
+3. Escribe los nombres de tus amigos y añádelos.
+4. Pulsa Sortear amigo para elegir un ganador al azar.
+
+
+   
