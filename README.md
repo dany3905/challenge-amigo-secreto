@@ -14,3 +14,9 @@ Permite añadir nombres, mostrarlos en pantalla y elegir aleatoriamente al ganad
 ## 🖼 Vista previa
 
 ![Vista previa](assets/amigo-secreto.png)
+
+## ⚙️ Cómo usarlo
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/amigo-secreto.git
