@@ -34,9 +34,11 @@ Permite añadir nombres, mostrarlos en pantalla y elegir aleatoriamente al ganad
 📜 Lógica principal
 
 Agregar nombres:
+
 Se almacenan en un array nombres[] y se muestran en una lista.
 
 Sorteo:
+
 Se selecciona un índice aleatorio dentro del array y se muestra el ganador.
 
 💻 Tecnologías utilizadas
@@ -47,6 +49,7 @@ CSS3 – estilos y diseño responsivo.
 JavaScript – lógica y manejo de eventos.
 
 📄 Licencia
+
 Este proyecto está bajo la licencia MIT.
 
    
